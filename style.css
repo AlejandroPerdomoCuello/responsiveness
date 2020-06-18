@@ -1,14 +1,26 @@
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
     /* For mobile phones */
     body {
         background-color: red;
     }
+    #medium {
+        display: none;
+    }
+    #large {
+        display: none;
+    }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 1023px) {
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
     /* For tables */
     body {
         background-color: green;
+    }
+    #small {
+        display: none;
+    }
+    #large {
+        display: none;
     }
 }
 
@@ -16,6 +28,12 @@
     /* For computers */
     body {
         background-color: blue;
+    }
+    #small {
+        display: none;
+    }
+    #medium {
+        display: none;
     }
 }
 
