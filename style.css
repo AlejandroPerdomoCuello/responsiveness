@@ -1,12 +1,24 @@
-body {
-    background-color: grey;
+@media only screen and (max-width: 480px) {
+    /* For mobile phones */
+    body {
+        background-color: red;
+    }
 }
 
-h1 {
-    color: yellow;
+@media only screen and (min-width: 480px, max-width: 1024px) {
+    /* For tables */
+    body {
+        background-color: green;
+    }
 }
 
-p {
-    color: black;
+@media only screen and (min-width: 1024px) {
+    /* For computers */
+    body {
+        background-color: blue;
+    }
+}
+
+/* code for the google font
     font-family: 'Flamenco', cursive;
-}
+*/
