@@ -5,7 +5,7 @@
     }
 }
 
-@media only screen and (min-width: 480px, max-width: 1024px) {
+@media only screen and (min-width: 480px; max-width: 1024px) {
     /* For tables */
     body {
         background-color: green;
