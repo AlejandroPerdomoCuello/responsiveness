@@ -30,16 +30,16 @@
     }
     */
     #small {
-        width: 66.66%;
+        width: 50%;
         float: left;
     }
     #medium {
-        width: 33.33%;
+        width: 20%;
         float: right;
     }
     #large {
-        width: 100%;
-        float: none;
+        width: 90%;
+        float: left;
     }
 }
 
@@ -58,26 +58,32 @@
     */
     #small {
         float: left;
-        width: 25%;
+        width: 20%;
     }
     #medium {
         float: left;
-        width: 25%;
+        width: 20%;
     }
     #large {
         float: right;
-        width: 50%;
+        width: 20%;
     }
+}
+
+div {
+    padding: 5%;
 }
 
 div h1 {
     font-size: 10vw;
     font-family: 'Flamenco', cursive;
+    text-align: center;
 }
 
 div p {
     font-size: 5vw;
     font-family: 'Flamenco', cursive;
+    text-align: left;
 }
 
 /* code for the google font
